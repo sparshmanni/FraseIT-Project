@@ -2,7 +2,7 @@ from django.shortcuts import render
 from django.http import HttpResponse
 import requests
 import nltk
-nltk.download('punkt')
+nltk.download('punkt',download_dir=download_dir)
 from nltk.tokenize import sent_tokenize
 import time
 
