@@ -8,7 +8,7 @@ import time
 
 
 API_URL = "https://api-inference.huggingface.co/models/prithivida/parrot_paraphraser_on_T5"
-headers = {"Authorization": f"Bearer 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"}
+headers = {"Authorization": f"Bearer <<key>>"}
 
 def query(payload):
 	response = requests.post(API_URL, headers=headers, json=payload)
