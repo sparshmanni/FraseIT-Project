@@ -11,6 +11,6 @@ Open Source: This project is open-source, meaning you can contribute to its deve
 Follow these instructions to set up and run the Paraphrasing Tool on your local machine.
 
 # Prerequisites
-Python 3.7 or higher
-Django 3.0 or higher
+Python 3.7 or higher <br />
+Django 3.0 or higher<br />
 Pretrained Language Model
